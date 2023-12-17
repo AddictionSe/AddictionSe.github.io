@@ -1,4 +1,4 @@
-/*模糊渐入动画*/
+/*模糊渐入动画.*/
 @keyframes fade-in {
     0% {
         opacity: 0;
