@@ -36,8 +36,16 @@ function init_life_time() {
         $('#monthProgress .progress .progress-bar').css('width', parseInt(monthPassPercent) + '%');
         $('#monthProgress .progress .progress-bar').html(parseInt(monthPassPercent) + '%');
         /* 年 */
-        let yearPass = (month / 12) * 100;
-        $('#yearProgress .date-text span').html(month);
+        // 获取当前日期
+        let today = new Date();
+        // 设置目标日期 - 例如，今年的12月31日
+        let yearEnd = new Date(today.getFullYear(), 11, 28); // 月份是从0开始计算的，所以11代表12月
+        // 计算差异（毫秒）
+        let difference = yearEnd - today;
+        // 转换为天数
+        let days = Math.ceil(difference / (1000 * 60 * 60 * 24));
+        let yearPass = ((365-days) / 365) * 100;
+        $('#yearProgress .date-text span').html(days);
         $('#yearProgress .progress .progress-bar').css('width', parseInt(yearPass) + '%');
         $('#yearProgress .progress .progress-bar').html(parseInt(yearPass) + '%');
     }
