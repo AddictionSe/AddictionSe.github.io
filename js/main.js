@@ -313,7 +313,7 @@ $("#bilibili")
   });
 $("#telegram")
   .mouseover(function () {
-    $("#link-text").html("你懂的 ~");
+    $("#link-text").html("卷起来 ~");
   })
   .mouseout(function () {
     $("#link-text").html("通过这里联系我");
