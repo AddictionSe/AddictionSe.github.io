@@ -471,7 +471,7 @@ let content = `
 版 本 号：1.0
 更新日期：2023-12-28
 
-由无名大佬原创，以下是链接
+由无名大佬开源，以下是链接
 主页:  https://www.imsyy.top
 Github:  https://github.com/imsyy/home
 `;
