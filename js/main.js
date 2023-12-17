@@ -408,7 +408,7 @@ window.addEventListener("load", function () {
       //移动端隐藏更多页面
       $("#container").attr("class", "container");
       $("#change").html("Hello&nbsp;World&nbsp;!");
-      $("#change1").html("最爱你的WYHUp");
+      $("#change1").html("最爱你的WYH");
 
       //移动端隐藏弹窗页面
       $("#box").css("display", "none");
@@ -463,19 +463,15 @@ color: rgb(244,167,89);
 let styleContent = `
 color: rgb(30,152,255);
 `;
-let title1 = "無名の主页";
+let title1 = "love ysy forever";
 let title2 = `
- _____ __  __  _______     ____     __
-|_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
-  | | | \\  / | (___  \\ \\_/ /  \\ \\_/ / 
-  | | | |\\/| |\\___ \\  \\   /    \\   /  
- _| |_| |  | |____) |  | |      | |   
-|_____|_|  |_|_____/   |_|      |_|                                                     
+————————from wyh                                                   
 `;
 let content = `
-版 本 号：3.4
-更新日期：2022-07-24
+版 本 号：1.0
+更新日期：2023-12-28
 
+由无名大佬原创，以下是链接
 主页:  https://www.imsyy.top
 Github:  https://github.com/imsyy/home
 `;
