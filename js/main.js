@@ -464,9 +464,8 @@ let styleContent = `
 color: rgb(30,152,255);
 `;
 let title1 = "love ysy forever";
-let title2 = `
-————————from wyh                                                   
-`;
+let title2 = `                                                  
+不知道你个笨蛋小白什么时候能看到这段话，希望我的宝贝ysy能天天开心、健健康康，也祝能看到这段话的朋友诸事顺利^_^\n\n——————————————————from wyh `;
 let content = `
 版 本 号：1.0
 更新日期：2023-12-28

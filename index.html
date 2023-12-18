@@ -127,7 +127,14 @@
             
                 function Search() {
                     var url = 'https://www.baidu.com/s?wd=' + oInp.value;
-                    window.open(url,'_self');
+                    window.open(url,'_blank');
+                    $(".search-btn").fadeIn(800);
+                    $(".search-data").fadeOut(500);
+                    $(".close-btn").fadeOut(500);
+                    $(".search-data .line").removeClass("active");
+                    $("input").val("");
+                    $(".search-data label").fadeOut(500);
+                    $(".search-data span").fadeOut(500);  
                 }
             </script>
 
