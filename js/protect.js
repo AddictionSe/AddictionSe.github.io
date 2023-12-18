@@ -5,6 +5,6 @@ function checkPassword() {
         document.getElementById("loginForm").style.display = "none";
         document.getElementById("protectedContent").style.display = "block";
     } else {
-        alert("Incorrect password!");
+        alert("Incorrect password! 笨蛋，这都不知道！");
     }
 }
