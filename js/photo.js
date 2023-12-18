@@ -126,7 +126,7 @@ const photosInfo = [
                 children_introduction: '海底捞我好喜欢，咱俩都吃成金海会员了',
             },
             {
-                children_url: './img/F1_Illustrations/5.jpeg',
+                children_url: './img/F1_Illustrations/5.jpg',
                 children_introduction: ``,
             },
             {
