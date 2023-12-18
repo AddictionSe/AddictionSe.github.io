@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
+    <!-- 基础信息 -->
+    <meta charset="utf-8">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="长夜未央">
+    <title>Surprise!</title>
+    <link rel="stylesheet" type="text/css" href="./css/protect.css">
+    <link rel="icon" href="./gift.ico">
 </head>
 <body>
+    <div id="loginForm">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <button onclick="checkPassword()">Login</button>
+    </div>
     
+    <div id="protectedContent" style="display:none;">
+        <h2>Protected Content</h2>
+        <p>This is the content protected by the password.</p>
+    </div>
+    
+    <script src="./js/protect.js"></script>
 </body>
 </html>
