@@ -306,7 +306,7 @@ $("#email")
   });
 $("#bilibili")
   .mouseover(function () {
-    $("#link-text").html("来 B 站看看 ~");
+    $("#link-text").html("云服务器地址 ~");
   })
   .mouseout(function () {
     $("#link-text").html("通过这里联系我");
