@@ -158,7 +158,7 @@ const photosInfo = [
                 children_introduction: '我才知道十月革命原来不发生在十月',
             },
             {
-                children_url: './img/Hong_Kong_Cinematic/6.jpg',
+                children_url: 'http://118.89.63.55:8080/img/happyme.jpg',
                 children_introduction: '咱们要好好的在一起哦宝贝,全世界最最最最最最最最最最最最爱你的王宇豪送给一周年的咱们俩。',
             },
         ]
